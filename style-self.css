@@ -1,0 +1,56 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.clock{
+    border: 2px solid black;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+}
+
+.num-container{
+    width: 40rem;
+    height: 40rem;
+    /* border: 1px solid black; */
+    text-align: center;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 6rem 6rem 6rem 6rem 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem 6rem 6rem 6rem 6rem; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly{
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    /* margin: 2rem; */
+}
+
+.top-bottom-row{
+    height: 38rem;
+    padding:0rem 2rem;
+}
+
+.second-row{
+    height: 24rem;
+}
+
+.third-row{
+    height: 33rem;
+}
+
+.middle-row{
+    height: fit-content;
+}
+
+.nums{
+    font-size: 4.8rem;
+    width: 4.8rem;
+}
